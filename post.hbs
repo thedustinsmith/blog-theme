@@ -10,10 +10,10 @@
 
     <article class="{{post_class}}">
 
-        <header class="post-header">
+        <header class="post-header clearfix">
             <h1 class="post-title">{{title}}</h1>
             <section class="post-meta">
-                <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}}
+                <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="MM.DD.YY"}}</time>
             </section>
         </header>
 
@@ -22,17 +22,21 @@
         </section>
 
         <footer class="post-footer">
-
+<!-- 
         {{! Everything inside the #author tags pulls data from the author }}
         {{#author}}
 
-            <section class="author">
-                {{#if image}}<img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" />{{/if}}
+            <section class="author clearfix">
+                {{#if image}}<img class="author-thumb" src="{{image}}" alt="Author image" nopin="nopin" />{{/if}}
 
                 <h4>{{name}}</h4>
             </section>
 
-        {{/author}}
+        {{/author}} -->
+
+            <section class="tags">
+                 {{tags prefix="TAGS: "}}
+             </section>
 
             <section class="share">
                 <h4>Share this post</h4>
