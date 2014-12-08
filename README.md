@@ -1,6 +1,6 @@
-# Casper
+# Custom Blog Theme
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+A custom blog theme for http://blog.thedustinsmith.com
 
 To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
 
